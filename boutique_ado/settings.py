@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['8000-jaycode88-djangowalkthr-rsreiiqg9me.ws-eu106.gitpod.io']
 
 
 # Application definition
