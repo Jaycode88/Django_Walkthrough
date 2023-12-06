@@ -6,7 +6,7 @@ Django==3.2.22
 django-allauth==0.41.0
 django-countries==7.2.1
 django-crispy-forms==1.14.0
-django-storages==1.14.2
+django-storages==2.0
 gunicorn==21.2.0
 jmespath==1.0.1
 oauthlib==3.2.2
