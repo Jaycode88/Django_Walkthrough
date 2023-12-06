@@ -187,12 +187,12 @@ if 'USE_AWS' in os.environ:
 
    # static and media files
    STATICFILES_STORAGE = 'custom_storages.StaticStorage'
-   STATIC_FILES_LOCATION = 'static'
+   STATICFILES_LOCATION = 'static'
    DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
    MEDIA_FILES_LOCATION = 'media'
 
    # overirde static and media files urls in production
-   STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATIC_FILES_LOCATION}'
+   STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}'
    MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIA_FILES_LOCATION}'
 
 # Stripe
